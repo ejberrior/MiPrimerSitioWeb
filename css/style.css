@@ -1,0 +1,170 @@
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilo de cada enlace */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px; /* Espacio entre opciones */
+            font-size: 16px;
+        }
+
+        /* Efecto al pasar el mouse */
+        nav a:hover {
+            text-decoration: underline;
+        }
+              
+        footer {
+        text-align: center;
+        }
+        main {
+        text-align: center;
+    }
+
+    main img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    /* Espaciado general */
+main {
+    padding: 20px;
+}
+
+/* Tabla más moderna */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+/* Encabezados */
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Celdas */
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Etiquetas */
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botones */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Efecto hover en botones */
+button:hover {
+    background-color: #555;
+}
+
+/* Diferenciar botón cancelar */
+button:last-of-type {
+    background-color: #999;
+}
+
+/* Mapa responsive */
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+/* Texto más legible */
+main p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Cada experiencia como bloque */
+main h3 {
+    margin-top: 25px;
+    color: #444;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #333;
+    text-align: left;
+}
+
+/* Periodo */
+main p {
+    margin: 5px 0 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Lista de funciones */
+ul {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    background-color: #fafafa;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Espaciado entre items */
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Efecto sutil al pasar el mouse */
+ul li:hover {
+    background-color: #f1f1f1;
+    cursor: default;
+}
+
+/* Separación entre bloques */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Mejorar énfasis */
+em {
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+}
+ 

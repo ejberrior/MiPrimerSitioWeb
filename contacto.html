@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Creacion de Menú --> 
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="personal.html">Perfil</a>
+            <a href="experiencia.html">Experiencia Laboral</a>
+            <a href="estudios.html">Estudios</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+
+
+    </header>
+    
+    <main>
+        <p>Quiero conocer tus apreciaciones con base en la informacion que puedes observar en esta pagina web</p>
+        <p>Dejame tus datos y puedes llegar a nuestra organización siguiendo con Google Maps</p>
+        <table border="1">
+            <tr>
+                <th>Contactame</th>
+                <th>Ubicame</th>
+            </tr>
+            <tr>
+                <td>
+                    <form action="/procesar-datos" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    
+                        <label for="email">Correo:</label>
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+
+                        <label for="email">Celular:</label>
+                        <input type="email" id="celular" name="celular" placeholder="Tu celular" required>
+
+                        <label for="email">Mensaje:</label>
+                        <input type="text" id="mensaje" name="mensaje" required>
+
+                        <!-- Botón de envío -->
+                        <button type="submit">Enviar</button>
+                        <button type="submit">Cancelar</button>
+                    </form>
+                </td>
+                <td>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6667092523803!2d-74.79110142416006!3d10.988510055244276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d7b34ed1f0b%3A0x1e939491885d8050!2sUniversidad%20Libre%20Sede%20Centro!5e0!3m2!1ses!2sco!4v1776379042920!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+            </tr>
+
+
+
+
+        </table>
+       
+        
+    </main>
+
+    <footer>
+        <footer>
+        <p>Universidad Libre</p>
+        <p>2026 Emiro Berrio Rodríguez. Todos los derechos reservados.&copy;</p>
+    </footer>
+
+
+
+        
+</body>
+</html>
